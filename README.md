@@ -1,4 +1,6 @@
 ## Hi there 👋
+🌱 I’m currently learning ...
+java, java script, html, python, sql
 
 <!--
 **kjfcvx12/kjfcvx12** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
