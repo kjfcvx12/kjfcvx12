@@ -1,17 +1,17 @@
-## Hi there 👋
-🌱 I’m currently learning ...
-java, java script, html, python, sql
-
 # Hi there 👋
 
 ### 🛠️ Tech Stack
-![Java](https://shields.io)
-![JavaScript](https://shields.io)
-![HTML5](https://shields.io)
-![Python](https://shields.io)
-![MySQL](https://shields.io)
+<p align="left">
+  <img src="https://shields.io" alt="Java">
+  <img src="https://shields.io" alt="JavaScript">
+  <img src="https://shields.io" alt="HTML5">
+  <img src="https://shields.io" alt="Python">
+  <img src="https://shields.io" alt="MySQL">
+</p>
 
 ### 📊 GitHub Stats
-![Anurag's GitHub stats](https://vercel.app)
+<p align="left">
+  <img src="https://vercel.app" alt="GitHub stats"><br><br>
+  <img src="https://vercel.app" alt="Top Langs">
+</p>
 
-![Top Langs](https://vercel.app)
