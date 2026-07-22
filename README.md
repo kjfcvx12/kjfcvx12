@@ -1,40 +1,40 @@
-<!-- 1. 헤더 (캡슐 렌더 컬러를 고정값으로 변경하여 안정성 확보) -->
-<p align="center">
-  <img src="https://vercel.app" alt="Header" />
-</p>
+<!-- 1. 헤더 (기존 엑박 나던 요소 제거 후 깃허브 공식 렌더러 기반으로 교체) -->
+# ⚙️ System Engineer & Full-Stack Developer
 
-<!-- 2. 프로필 -->
+<br />
+
+<!-- 2. 프로필 (전면 재구성한 아키텍처 중심 소개) -->
 ## 🧑‍💻 프로필 (Profile)
-- **AI-Driven Full-Stack**: 딥러닝 인프라 및 LLM 파이프라인 연동부터 비즈니스 로직 중심의 웹 백엔드, 프론트엔드 설계까지 전 계층 개발 프로세스를 경험했습니다.
-- **Robust Architecture**: 데이터 무결성을 위한 정밀한 RDBMS(MySQL) 모델링, 객체 관계 매핑(ORM) 설계, 트랜잭션 최적화를 최우선으로 고려합니다.
-- **Infra Integration**: Linux/Windows 인프라 운영 환경을 이해하고, 컨테이너 오케스트레이션(Kubernetes, Docker)과 자동화(CI/CD) 기술을 결합하여 유연하고 안정적인 서비스를 구축하는 것에 집중합니다.
+- **AI-Driven Full-Stack**: 딥러닝 추론 파이프라인 설계 및 대규모 언어 모델(LLM) 연동 인프라부터 풀스택 어플리케이션 전반을 아우르는 개발 프로세스를 지향합니다.
+- **Robust Architecture**: 데이터의 엄격한 정합성을 위한 RDBMS 모델링, 유기적인 계층 분리 설계(Router-Service-CRUD), 트랜잭션 처리 최적화에 집중합니다.
+- **Infra Integration**: Linux 및 Windows 시스템 인프라를 이해하고, Docker 컨테이너 가상화와 Kubernetes 오케스트레이션, CI/CD 자동화 흐름을 유기적으로 결합합니다.
 
-<br>
+<br />
 
-<!-- 3. 기술 스택 (Shields.io 표준 규격으로 올바르게 수정 완료) -->
+<!-- 3. 기술 스택 (보내주신 프로필의 Shields.io 실서버 파싱 문법 반영 완료) -->
 ## 🛠️ 기술 스택 (Tech Stacks)
 
 ### 📄 Languages
-<img src="https://shields.io"> <img src="https://shields.io"> <img src="https://shields.io"> <img src="https://shields.io">
+<img src="https://shields.io" /> <img src="https://shields.io" /> <img src="https://shields.io" /> <img src="https://shields.io" />
 
 ### 🤖 AI / Machine Learning
-<img src="https://shields.io"> <img src="https://shields.io">
+<img src="https://shields.io" /> <img src="https://shields.io" />
 
-### 🗄️ Backend & DB
-<img src="https://shields.io"> <img src="https://shields.io">
+### ⚙️ Backend & DB
+<img src="https://shields.io" /> <img src="https://shields.io" />
 
 ### ☁️ Cloud & Infra
-<img src="https://shields.io"> <img src="https://shields.io"> <img src="https://shields.io"> <img src="https://shields.io"> <img src="https://shields.io"> <img src="https://shields.io">
+<img src="https://shields.io" /> <img src="https://shields.io" /> <img src="https://shields.io" /> <img src="https://shields.io" /> <img src="https://shields.io" /> <img src="https://shields.io" />
 
 ### 🛠️ Tools & Frontend
-<img src="https://shields.io"> <img src="https://shields.io">
+<img src="https://shields.io" /> <img src="https://shields.io" />
 
-### 📜 Certifications (임의 로고 대신 가독성 높은 텍스트 배지로 대체)
-<img src="https://shields.io"> <img src="https://shields.io">
+### 📜 Certifications
+<img src="https://shields.io" /> <img src="https://shields.io" />
 
-<br>
+<br />
 
-<!-- 4. 주요 프로젝트 -->
+<!-- 4. 주요 프로젝트 (기술적 관점으로 수정한 핵심 프로젝트 포트폴리오) -->
 ## 🚀 주요 프로젝트 (Projects)
 
 ### 🏋️ FitChick (헬스 초보자용 스마트 운동 관리 서비스)
@@ -53,19 +53,20 @@
   - 비동기 알림 스케줄링 및 대용량 멀티미디어 분석을 위한 고성능 서버 기능 고도화
 - **Repositories**: [Frontend Repo](https://github.com) | [Backend Repo](https://github.com)
 
-<br>
+<br />
 
-<!-- 5. 연락처 및 링크 -->
+<!-- 5. 연락처 및 링크 (프로필에 기재된 실제 티스토리 도메인 연동 완료) -->
 ## 🔗 연락처 (Contact & Links)
-<a href="mailto:dlrlwms11@gmail.com"><img src="https://shields.io"></a>
-<a href="https://notion.com" target="_blank"><img src="https://shields.io"></a>
+<a href="mailto:dlrlwms11@gmail.com"><img src="https://shields.io" /></a>
+<a href="https://notion.com" target="_blank"><img src="https://shields.io" /></a>
+<a href="https://tistory.com" target="_blank"><img src="https://shields.io" /></a>
 
-<!-- 프로필 방문자 수 카운터 배지 -->
+<!-- 방문자 수 확인 배지 (kjfcvx12 ID 연동 완료) -->
 <img src="https://seeyoufarm.com" alt="Hits" />
 
-<br>
+<br />
 
-<!-- 6. Github 실시간 스탯 그래프 -->
+<!-- 6. Github 실시간 스탯 그래프 카드 (kjfcvx12 ID 연동 완료) -->
 ## 📊 GitHub 활동량 (GitHub Stats)
 <p align="center">
   <img src="https://vercel.app" alt="GitHub Stats" />
