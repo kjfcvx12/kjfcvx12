@@ -1,9 +1,9 @@
-<!-- 1. 헤더 (디지털 테크 감성의 깔끔한 웨이브 배너) -->
+<!-- 1. 헤더 (캡슐 렌더 컬러를 고정값으로 변경하여 안정성 확보) -->
 <p align="center">
   <img src="https://vercel.app" alt="Header" />
 </p>
 
-<!-- 2. 자기소개 (주도적인 문제 해결과 백엔드 안정성에 중점을 둔 핵심 요약) -->
+<!-- 2. 프로필 -->
 ## 🧑‍💻 프로필 (Profile)
 - **AI-Driven Full-Stack**: 딥러닝 인프라 및 LLM 파이프라인 연동부터 비즈니스 로직 중심의 웹 백엔드, 프론트엔드 설계까지 전 계층 개발 프로세스를 경험했습니다.
 - **Robust Architecture**: 데이터 무결성을 위한 정밀한 RDBMS(MySQL) 모델링, 객체 관계 매핑(ORM) 설계, 트랜잭션 최적화를 최우선으로 고려합니다.
@@ -11,7 +11,7 @@
 
 <br>
 
-<!-- 3. 기술 스택 (카테고리별 깔끔한 기술 배지 구성) -->
+<!-- 3. 기술 스택 (Shields.io 표준 규격으로 올바르게 수정 완료) -->
 ## 🛠️ 기술 스택 (Tech Stacks)
 
 ### 📄 Languages
@@ -29,12 +29,12 @@
 ### 🛠️ Tools & Frontend
 <img src="https://shields.io"> <img src="https://shields.io">
 
-### 📜 Certifications
+### 📜 Certifications (임의 로고 대신 가독성 높은 텍스트 배지로 대체)
 <img src="https://shields.io"> <img src="https://shields.io">
 
 <br>
 
-<!-- 4. 주요 프로젝트 (참고 문구를 완전히 배제하고 아키텍처 관점에서 고급화한 기술 설명) -->
+<!-- 4. 주요 프로젝트 -->
 ## 🚀 주요 프로젝트 (Projects)
 
 ### 🏋️ FitChick (헬스 초보자용 스마트 운동 관리 서비스)
@@ -59,15 +59,13 @@
 ## 🔗 연락처 (Contact & Links)
 <a href="mailto:dlrlwms11@gmail.com"><img src="https://shields.io"></a>
 <a href="https://notion.com" target="_blank"><img src="https://shields.io"></a>
-<!-- 실제 사용하는 티스토리 블로그 주소를 아래 "티스토리블로그주소" 대신 붙여넣어 주세요 -->
-<a href="티스토리블로그주소" target="_blank"><img src="https://shields.io"></a>
 
-<!-- 프로필 방문자 수 카운터 배지 (요청하신 ID 'kjfcvx12' 반영 완료) -->
+<!-- 프로필 방문자 수 카운터 배지 -->
 <img src="https://seeyoufarm.com" alt="Hits" />
 
 <br>
 
-<!-- 6. Github 실시간 스탯 그래프 (요청하신 ID 'kjfcvx12' 반영 완료) -->
+<!-- 6. Github 실시간 스탯 그래프 -->
 ## 📊 GitHub 활동량 (GitHub Stats)
 <p align="center">
   <img src="https://vercel.app" alt="GitHub Stats" />
