@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&section=header&text=Kang%20Min%20ku&desc=-nl-AI%20Full-Stack%20Developer&descAlignY=60&descSize=22&animation=fadeIn&fontSize=55)
+![header](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&section=header&text=Kang%20Min%20ku&desc=-nl-AI%20Engineer,%20Full-Stack%20Developer&descAlignY=60&descSize=22&animation=fadeIn&fontSize=55)
 
 
 <hr>
