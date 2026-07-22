@@ -1,9 +1,7 @@
-<!-- 1. 헤더 (기존 엑박 나던 요소 제거 후 깃허브 공식 렌더러 기반으로 교체) -->
 # ⚙️ System Engineer & Full-Stack Developer
 
 <br />
 
-<!-- 2. 프로필 (전면 재구성한 아키텍처 중심 소개) -->
 ## 🧑‍💻 프로필 (Profile)
 - **AI-Driven Full-Stack**: 딥러닝 추론 파이프라인 설계 및 대규모 언어 모델(LLM) 연동 인프라부터 풀스택 어플리케이션 전반을 아우르는 개발 프로세스를 지향합니다.
 - **Robust Architecture**: 데이터의 엄격한 정합성을 위한 RDBMS 모델링, 유기적인 계층 분리 설계(Router-Service-CRUD), 트랜잭션 처리 최적화에 집중합니다.
@@ -11,7 +9,6 @@
 
 <br />
 
-<!-- 3. 기술 스택 (보내주신 프로필의 Shields.io 실서버 파싱 문법 반영 완료) -->
 ## 🛠️ 기술 스택 (Tech Stacks)
 
 ### 📄 Languages
@@ -34,7 +31,6 @@
 
 <br />
 
-<!-- 4. 주요 프로젝트 (기술적 관점으로 수정한 핵심 프로젝트 포트폴리오) -->
 ## 🚀 주요 프로젝트 (Projects)
 
 ### 🏋️ FitChick (헬스 초보자용 스마트 운동 관리 서비스)
@@ -55,18 +51,15 @@
 
 <br />
 
-<!-- 5. 연락처 및 링크 (프로필에 기재된 실제 티스토리 도메인 연동 완료) -->
 ## 🔗 연락처 (Contact & Links)
 <a href="mailto:dlrlwms11@gmail.com"><img src="https://shields.io" /></a>
 <a href="https://notion.com" target="_blank"><img src="https://shields.io" /></a>
-<a href="https://tistory.com" target="_blank"><img src="https://shields.io" /></a>
+<a href="https://myblog73329.tistory.com" target="_blank"><img src="https://shields.io" /></a>
 
-<!-- 방문자 수 확인 배지 (kjfcvx12 ID 연동 완료) -->
 <img src="https://seeyoufarm.com" alt="Hits" />
 
 <br />
 
-<!-- 6. Github 실시간 스탯 그래프 카드 (kjfcvx12 ID 연동 완료) -->
 ## 📊 GitHub 활동량 (GitHub Stats)
 <p align="center">
   <img src="https://vercel.app" alt="GitHub Stats" />
