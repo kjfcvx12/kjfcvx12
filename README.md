@@ -77,30 +77,35 @@
 
 ## 🚀 Projects
 
-### 🏋 FitChick (헬스 초보자용 스마트 운동 관리 서비스)
-> **Tech Stacks** : ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-> <br />
-> **Repository** : [🔗 GitHub 링크](https://github.com)
-
-* **개요**: 복잡한 입력 단계를 간소화하고 직관적인 트래킹을 제공하는 API 지향적 운동 관리 플랫폼
-* **아키텍처 및 역할**:
-    * Router ➔ Service ➔ CRUD ➔ Model 구조의 철저한 계층 분리로 비즈니스 로직 유연성 확보
-    * UniqueConstraint 및 데이터 관계 무결성을 위한 **ondelete="CASCADE" 정밀 데이터 모델링** 구축
-    * 클라이언트 사이드의 유연한 상태 관리를 위해 DB 자원을 효율적으로 토글하는 **트랜잭션 최적화 처리 및 API 설계** 단독 수행
-
-<br />
-
 ### 👶 아이 성장 일기 AI (AI 기반 스마트 육아 분석 서비스)
 > **Tech Stacks** : ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![IBM watsonx](https://img.shields.io/badge/IBM_watsonx-052F93?style=for-the-badge&logo=ibm&logoColor=white)![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-<br />
+> <br />
 > **Repositories** : [💻 Frontend Repo](https://github.com) | [⚙️ Backend Repo](https://github.com)
 
 * **개요**: 입력된 육아 발달 데이터 및 이미지를 인공지능이 분석하여 주기에 맞는 맞춤형 디지털 성장 일기를 자동 생성하는 플랫폼
 * **아키텍처 및 역할**:
-    * 대규모 언어 모델(LLM) 및 **딥러닝 추론 파이프라인 인프라**를 백엔드 시스템 내에 유기적으로 결합
-    * 라벨 추출 데이터를 기반으로 또래 집단과의 시각적 분포 비교 가공 처리 구현
-    * 비동기 알림 스케줄링 및 대용량 멀티미디어 분석을 위한 고성능 서버 기능 고도화
+    * **컴퓨터 비전 기반 자동 라벨링 구현**: PyTorch 기반의 딥러닝 커스텀 모델을 활용하여 사용자가 사진 등록 시 이미지 속 오브젝트를 자동으로 분석하고 라벨을 추출·분류하는 파이프라인 구축
+    * **발달 마일스톤 및 Multi-stage LLM 설계**: 
+        * 라벨링 모델을 고도화하여 영유아의 발달 사항(마일스톤, Milestone) 지표 데이터를 추출하고 정상 발달 유무를 모니터링할 수 있는 알고리즘 설계
+        * IBM watsonx 환경을 활용하여 텍스트 메모 및 이미지에서 추출된 라벨 데이터를 합성해 맞춤형 디지털 일기를 자동 생성하는 프롬프트 최적화 완수
+        * 축적된 일기 데이터를 컨텍스트로 취합하여 아이 시점의 스토리텔링형 롱폼(Long-form) 동화책 컨텐츠를 빌드하는 LLM 파이프라인 최종 엔지니어링
+    * **백엔드 코어 및 CRUD 기초 설계**: FastAPI 기반의 데이터베이스 스키마 구조를 설계하고, 시스템 통합 및 데이터 파이프라인 유기적 처리를 위한 백엔드 연결 작업 및 핵심 CRUD API 아키텍처 전담 개발
+<br /><br />
+
+### 🏋 FitChick (헬스 초보자용 스마트 운동 관리 서비스)
+> **Tech Stacks** : ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+> <br />
+> **Repository** : [🔗 GitHub 링크](https://github.com)
+
+* **개요**: 헬스 초보자들이 본인에게 맞는 운동 루틴을 확인하고 올바른 운동 방법 정보를 손쉽게 습득할 수 있도록 설계된 풀스택(FastAPI & React) 기반의 웹 운동 관리 플랫폼
+* **아키텍처 및 역할**:
+    * **핵심 기능 및 DB 설계**: 프로젝트의 초기 DB 기초 설계부터 FastAPI 기반 백엔드 구축 및 React 웹 엔드포인트 전담 구현
+    * **인증 및 인프라 설계**: 안전한 사용자 관리를 위한 로그인 세션 및 토큰 기반 인증 아키텍처 독자적 구현
+    * **계층형 아키텍처 패턴 구축**: Router ➔ Service ➔ CRUD ➔ Model 구조의 철저한 계층 분리로 비즈니스 로직 유연성 및 유지보수성 확보
+    * **정밀 데이터 모델링**: 관계형 데이터베이스의 무결성을 확보하기 위해 `UniqueConstraint` 설정 및 `ondelete="CASCADE"` 조건 반영
+    * **클라이언트 협업 및 API 연동**: 플랫폼 다각화를 위해 연동되는 클라이언트사이드 앱 환경과의 안정적인 데이터 통신 및 트랜잭션 최적화 API 연동 지원
+
 <br /><br />
 
