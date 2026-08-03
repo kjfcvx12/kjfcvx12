@@ -70,7 +70,7 @@
 <br /><br />
 
 ## 🔗 Contact & Links
-> notion : [개발자 강민구 노션](https://buly.kr/6Mu83R0)
+> notion : <https://buly.kr/6Mu83R0>
 >
 > Email : <kjfcvx12@gmail.com>
 <br />
