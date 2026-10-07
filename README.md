@@ -69,12 +69,49 @@
 
 ## 🚀 Projects
 
+### 🎙️ AUTUNE (회의 녹음 분석 서비스)
+> **Tech Stacks** : ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+> <br />
+> **Repository** : [🔗 AI-X-16-1/AUTUNE](https://github.com/AI-X-16-1/AUTUNE)
+
+* **개요**: 회의 녹음에서 할 일, 결정 사항, 질문을 뽑아 정리하고 Notion, Slack, Jira, Google Calendar로 보내 주는 서비스 (5인 팀, 2026.09 ~ 진행 중)
+* **담당**: 구조화 추출 모듈(Module B) 백엔드, 프론트, 모델
+    * 발화를 커밋먼트, 결정, 질문, 우려, 모호, 해당없음 6종으로 나누는 분류 모델 개발, 45분 회의 기준 CPU 처리 시간 2분인 kf-deberta 채택 (mdeberta는 37분)
+    * 지시어 해소, 한국어 날짜 표현 파싱, NLI 기반 약한 동의 판별로 이어지는 추출 파이프라인 구현
+    * 라벨 분포를 무시한 초기 평가가 성능을 부풀린 점을 찾아내고(F1 0.655, 실제 분포 0.225) 평가 기준 재설계
+    * 로컬 LLM을 LoRA로 파인튜닝하고 NLI 검증을 붙여 F1 0.917까지 올렸지만, GPU 운영비가 월 약 90만원으로 계산돼 Gemini API(F1 0.959, 회의당 약 $0.003)로 전환
+<br /><br />
+
+### 📚 BOOKIT (초등·중등 독서 이해도 확인 서비스)
+> **Tech Stacks** : ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)![Claude](https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+> <br />
+> **Repository** : [🔗 AI-X-16-1/BOOKIT](https://github.com/AI-X-16-1/BOOKIT) | **Service** : [bookit-edu.vercel.app](https://bookit-edu.vercel.app)
+
+* **개요**: 아이가 쓴 독후감에서 AI가 논리의 빈틈을 찾아 꼬리질문을 던지고, 30~60초 안에 제대로 답하면 포인트를 주는 독서 확인 서비스 (5인 팀, 원티드 AI 챔피언십 2026 출품)
+* **담당**: AI 모듈, 서재 리더 모듈
+    * 글쓰기 도우미, 빈틈 분석, 꼬리질문, 채점 4종 프롬프트 설계와 서버 측 Claude API 연동
+    * 책마다 제각각인 장르 태그를 하나의 기준으로 맞추는 정규화 로직 구현
+    * 공개 도서를 바로 읽을 수 있는 책잇 서재 리더와 단어 사전 기능 구현
+<br /><br />
+
+### 💳 CARD:N (명함 기반 인맥 관리 앱)
+> **Tech Stacks** : ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white)![PaddleOCR](https://img.shields.io/badge/PaddleOCR-0062B0?style=for-the-badge&logo=paddlepaddle&logoColor=white)
+> <br />
+> **Repository** : [🔗 AI-X-16-1/CARD-N](https://github.com/AI-X-16-1/CARD-N)
+
+* **개요**: 명함을 찍으면 연락처와 대화 기록, 업무 관계를 한곳에 정리해 주는 인맥 관리 앱 (5인 팀, 2026.08.24 ~ 08.31)
+* **담당**: 명함 스캔, 연락처, 홈 화면
+    * 명함 윤곽 검출과 원근 보정 후 PaddleOCR 사전학습 모델을 명함 데이터로 파인튜닝한 OCR 파이프라인 구현
+    * 개인정보를 외부 서버로 보내지 않으면서 필드별 정확도 이름 98%, 연락처 96.5%, 회사 95.5% 달성
+    * 신뢰도 90% 미만 필드에 '검토 필요' 표시를 띄우는 확인 화면, 연속 스캔과 수동 입력 기능 구현
+<br /><br />
+
 ### 👶 아이 성장 일기 AI (AI 기반 스마트 육아 분석 서비스)
 > **Tech Stacks** : ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![IBM watsonx](https://img.shields.io/badge/IBM_watsonx-052F93?style=for-the-badge&logo=ibm&logoColor=white)![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 > <br />
-> **Repositories** : [💻 Frontend Repo](https://github.com) | [⚙️ Backend Repo](https://github.com)
+> **Repositories** : [💻 Frontend Repo](https://github.com/kjfcvx12/IBM_RedHat_Final_Project_FE) | [⚙️ Backend Repo](https://github.com/kjfcvx12/IBM_RedHat_Final_Project_BE)
 
 * **개요**: 입력된 육아 발달 데이터 및 이미지를 인공지능이 분석하여 주기에 맞는 맞춤형 디지털 성장 일기를 자동 생성하는 플랫폼
 * **아키텍처 및 역할**:
